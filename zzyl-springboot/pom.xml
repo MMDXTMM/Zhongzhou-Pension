@@ -220,7 +220,7 @@
         <module>zzyl-generator</module>
         <module>zzyl-common</module>
         <module>zzyl-nursing-platform</module>
-        <module>zzyl_oss</module>
+        <module>zzyl-oss</module>
         <module>zzyl-ai-agent</module>
     </modules>
     <packaging>pom</packaging>

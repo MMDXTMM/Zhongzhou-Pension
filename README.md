@@ -143,7 +143,7 @@ Zhongzhou-Pension/
 │   ├── zzyl-common/          # 公共工具
 │   ├── zzyl-quartz/          # 定时任务
 │   ├── zzyl-generator/       # 代码生成
-│   ├── zzyl_oss/             # 对象存储
+│   ├── zzyl-oss/             # 对象存储
 │   └── sql/                  # 数据库脚本
 └── zzyl-vue/                 # 前端工程
     ├── src/
@@ -264,7 +264,7 @@ spring:
 | `zzyl-common` | 工具类、常量、通用实体 |
 | `zzyl-quartz` | 定时任务调度 |
 | `zzyl-generator` | 代码生成器 |
-| `zzyl_oss` | 阿里云 OSS 上传工具 |
+| `zzyl-oss` | 阿里云 OSS 上传工具 |
 
 ---
 
