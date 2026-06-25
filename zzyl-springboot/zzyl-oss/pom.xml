@@ -9,13 +9,7 @@
         <version>3.9.2</version>
     </parent>
 
-    <artifactId>zzyl_oss</artifactId>
-
-    <properties>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <artifactId>zzyl-oss</artifactId>
 
     <dependencies>
         <dependency>
