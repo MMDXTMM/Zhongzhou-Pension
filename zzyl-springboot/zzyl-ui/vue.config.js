@@ -46,6 +46,11 @@ module.exports = {
       '^/v3/api-docs/(.*)': {
         target: baseUrl,
         changeOrigin: true
+      },
+      // aiconsult proxy for SSE
+      '^/aiconsult': {
+        target: baseUrl,
+        changeOrigin: true
       }
     },
     disableHostCheck: true

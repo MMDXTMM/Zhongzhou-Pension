@@ -73,6 +73,8 @@ public class HttpUtils
             log.info("sendGet - {}", urlNameString);
             URL realUrl = new URL(urlNameString);
             URLConnection connection = realUrl.openConnection();
+            connection.setConnectTimeout(3000);
+            connection.setReadTimeout(3000);
             connection.setRequestProperty("accept", "*/*");
             connection.setRequestProperty("connection", "Keep-Alive");
             connection.setRequestProperty("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)");
@@ -148,6 +150,8 @@ public class HttpUtils
             log.info("sendPost - {}", url);
             URL realUrl = new URL(url);
             URLConnection conn = realUrl.openConnection();
+            conn.setConnectTimeout(3000);
+            conn.setReadTimeout(3000);
             conn.setRequestProperty("accept", "*/*");
             conn.setRequestProperty("connection", "Keep-Alive");
             conn.setRequestProperty("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)");
@@ -219,6 +223,8 @@ public class HttpUtils
             sc.init(null, new TrustManager[] { new TrustAnyTrustManager() }, new java.security.SecureRandom());
             URL console = new URL(urlNameString);
             HttpsURLConnection conn = (HttpsURLConnection) console.openConnection();
+            conn.setConnectTimeout(3000);
+            conn.setReadTimeout(3000);
             conn.setRequestProperty("accept", "*/*");
             conn.setRequestProperty("connection", "Keep-Alive");
             conn.setRequestProperty("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)");

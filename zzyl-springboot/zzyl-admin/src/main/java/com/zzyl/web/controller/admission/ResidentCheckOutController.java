@@ -1,4 +1,4 @@
-package com.zzyl.admission.controller;
+package com.zzyl.web.controller.admission;
 
 import java.util.List;
 import jakarta.servlet.http.HttpServletResponse;
